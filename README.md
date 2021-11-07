@@ -8,3 +8,7 @@ cancer_immune_3D run1.xml
 cd run1
 python tumor_vis2.py     # only half of the tumor is displayed so we can see the necrotic core
 ```
+
+Assuming you have an appropriate Python distribution installed, you should be able to install Fury via `pip install fury` and then see the following rendering which allows for dynamic viewing (rotate, scale, pan):
+
+![fury rendering](/images/fury_half_tumor1.png)
