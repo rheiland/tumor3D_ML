@@ -9,6 +9,9 @@ cd run1
 python tumor_vis2.py     # only half of the tumor is displayed so we can see the necrotic core
 ```
 
+![Z=0-slices](/images/day9-12.png)
+
+
 Assuming you have an appropriate Python distribution installed, you should be able to install Fury via `pip install fury` and then see the following rendering which allows for dynamic viewing (rotate, scale, pan):
 
 ![fury rendering](/images/fury_half_tumor1.png)
