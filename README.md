@@ -1,6 +1,6 @@
 # tumor3D_ML - PhysiCell model of a 3D tumor for the HuBMAP ML team
 
-Compile the code, run the model, and visualize/analyze the output. Assumes you have an appropriate compiler/build toolchain and Python module (fury). This is a modified version of the `cancer_immune` sample project that comes bundled with PhysiCell. The `immune_activation_time` parameter in the `run1.xml` configuration file has been set artificially large so as to never invoke the immune aspect of the model, i.e., the tumor grows without being attacked by the immune cells.
+Compile the code, run the model, and visualize/analyze the output. Assumes you have an appropriate compiler/build toolchain and Python module (fury). This is a modified version of the `cancer_immune` sample project that comes bundled with PhysiCell. The `immune_activation_time` parameter in the `run3.xml` configuration file has been set artificially large so as to never invoke the immune aspect of the model, i.e., the tumor grows without being attacked by the immune cells.
 
 ```
 make
